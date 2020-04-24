@@ -215,21 +215,27 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 <a name="1.2.1"></a>
 #### 1.2.1 Most Common ![#](https://img.shields.io/badge/lint-supported-green.svg)
 
-| Asset Type              | Prefix     | Suffix     | Notes                            |
-| ----------------------- | ---------- | ---------- | -------------------------------- |
-| Level / Map             |            |            | [Should be in a folder called Maps.](#2.4) |
-| Level (Persistent)      |            | _P         |                                  |
-| Level (Audio)           |            | _Audio     |                                  |
-| Level (Lighting)        |            | _Lighting  |                                  |
-| Level (Geometry)        |            | _Geo       |                                  |
-| Level (Gameplay)        |            | _Gameplay  |                                  |
-| Blueprint               | BP_        |            |                                  |
-| Material                | M_         |            |                                  |
-| Static Mesh             | S_         |            | Many use SM_. We use S_.         |
-| Skeletal Mesh           | SK_        |            |                                  |
-| Texture                 | T_         | _?         | See [Textures](#anc-textures)    |
-| Particle System         | PS_        |            |                                  |
-| Widget Blueprint        | WBP_       |            |                                  |
+| Asset Type              | Prefix     | Suffix       | Notes                            |
+| ----------------------- | ---------- | ------------ | -------------------------------- |
+| Level / Map             |            |              | [Should be in a folder called Maps.](#2.4) |
+| Level (Persistent)      |            | _P           |                                  |
+| Level (Audio)           |            | _Audio       |                                  |
+| Level (Lighting)        |            | _Lighting    |                                  |
+| Level (Geometry)        |            | _Geo         |                                  |
+| Level (Gameplay)        |            | _Gameplay    |                                  |
+| Blueprint               | BP_        |              |                                  |
+| Material                | M_         |              |                                  |
+| Static Mesh             | S_         |              | Many use SM_. We use S_.         |
+| Skeletal Mesh           | SK_        |              |                                  |
+| Texture                 | T_         | _?           | See [Textures](#anc-textures)    |
+| Particle System         | PS_        |              |                                  |
+| Widget Blueprint        | WBP_       |              |                                  |
+| Prefab                  | FAB_       |              |                                  |
+| Prefab (Building)       | FAB_       | _Building    |                                  |
+| Prefab (Roof)           | FAB_       | _Roof        |                                  |
+| Prefab (Ground Floor)   | FAB_       | _GroundFloor |                                  |
+| Prefab (Floor)          | FAB_       | _Floor       |                                  |
+| Prefab Collection       | FABC_      |              |                                  |
 
 <a name="anc-animations"></a>
 <a name="1.2.2"></a>
